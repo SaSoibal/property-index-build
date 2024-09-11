@@ -3,6 +3,7 @@ import React, { lazy, Suspense } from "react";
 // Route 
 import { Routes, Route } from 'react-router-dom';
 import ScrollToTop from "./components/ScrollToTop";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 // Default Thim Components
 import Loader from "./Helper/Loader";
 import BankDetails from './pages/DefaultPages/BankDetails';
