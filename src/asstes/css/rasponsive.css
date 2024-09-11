@@ -1,0 +1,900 @@
+/*==========================================
+            Responsive-Area
+==========================================*/
+
+/* / Display SIze 320 / */
+@media only screen and (max-width:359px) {
+
+    h1, h2, h3 {
+        font-size: 15px !important;
+    }
+    a, p, button {
+        font-size: 13px !important;
+    }
+    button {
+        font-weight: bold !important;
+    }
+    .ant-card-body {
+        padding: 0px 0px;
+    }
+    .how-realtor .how-realtor-card .how-realtor-btn {
+        padding: 13px 15px 13px 15px;
+    }
+    .how-realtor .how-realtor-card {
+        border-radius: 12px;
+        text-align: center;
+        margin: 0 5px 20px 5px;
+        padding: 10px 15px 10px 15px;
+        border: none;
+    }
+    .filter_box_input{
+        margin-bottom: 5px;
+    }
+    .apartments_deatils_top_left {
+        width: 100%;
+    }
+    .apartments_deatils_top_left span.ant-radio+* {
+        font-size: 12px;
+        margin-left: -15px;
+    }
+    span.ant-radio + * {
+        padding: 0px 3px;
+    }
+    .apartments_deatils_top_left .ant-radio-group {
+        width: 100%;
+    }
+    .ant-radio-wrapper {
+        margin-right: 0px;
+    }
+    .apartments_deatils_top_left .ant-radio-wrapper {
+        padding: 2px 6px !important;
+    }
+    .apartments_deatils_top_left .ant-radio-wrapper:last-child {
+        margin-right: 0;
+        padding: 2px 5px !important;
+    }
+    .apartments_deatils_top_left .ant-radio-wrapper:first-child {
+        margin-left: 0 !important;
+        padding: 2px 8px !important;
+    }
+    .filter_box_input{
+        width:50%;
+    }
+    .ant-popover-inner {
+        border-radius: 10px;
+        border: 1px solid #CCC;
+        margin: 15px;
+    }
+    .banner_top_checkbox p {
+        font-size: 15px;
+    }
+    .from_button {
+        font-size: 15px;
+    }
+    .managed-by{
+        display:none;
+    }
+    .apartments_for_sale_boxxx___btn {
+        padding: 5px 20px;
+        width: 45%;
+        margin: 0px 5px;
+    }
+    .facilities_list_iconnn {
+        font-size: 13px;
+    }
+    .popover-button-style button {
+        font-weight: bold;
+    }
+    .property-box-2 .footer {
+        padding: 15px 20px;
+    }
+    .property-by-city .property-by-cit-card .ant-card-body {
+        display: flex;
+        padding: 15px 0;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .property-by-city {
+        padding: 0px;
+    }
+    .about_us_deatils_area {
+        margin-top: 0px;
+    }
+
+
+}
+
+/* / Display SIze 360 / */
+@media only screen and (max-width:599px){
+
+    p {
+        font-size: 15px;
+    }
+    .how-realtor .how-realtor-card .how-realtor-btn {
+        padding: 13px 15px 13px 15px;
+    }
+    .how-realtor .how-realtor-card {
+        border-radius: 12px;
+        text-align: center;
+        margin: 0 5px 20px 5px;
+        padding: 10px 15px 0px 15px;
+        border: none;
+    }
+    .how-realtor .how-realtor-card.hover {
+        padding-bottom: 20px;
+    }
+    .filter_box_input{
+        margin-bottom: 5px;
+    }
+    .apartments_deatils_top_left {
+        width: 100%;
+    }
+    .apartments_deatils_top_left span.ant-radio+* {
+        font-size: 12px;
+        margin-left: -15px;
+    }
+    span.ant-radio + * {
+        padding: 0px 3px;
+    }
+    .apartments_deatils_top_left .ant-radio-group {
+        width: 100%;
+    }
+    .ant-radio-wrapper {
+        margin-right: 0px;
+    }
+    .apartments_deatils_top_left .ant-radio-wrapper {
+        padding: 2px 6px !important;
+    }
+    .apartments_deatils_top_left .ant-radio-wrapper:last-child {
+        margin-right: 0;
+        padding: 2px 5px !important;
+    }
+    .apartments_deatils_top_left .ant-radio-wrapper:first-child {
+        margin-left: 0 !important;
+        padding: 2px 8px !important;
+    }
+    .filter_box_input{
+        width:50%;
+    }
+    .ant-popover-inner {
+        border-radius: 10px;
+        border: 1px solid #CCC;
+        margin: 15px;
+    }
+    .banner_top_checkbox p {
+        font-size: 15px;
+    }
+    .from_button {
+        font-size: 15px;
+    }
+    .managed-by{
+        display:none;
+    }
+    .apartments_for_sale_boxxx___btn {
+        padding: 5px 20px;
+        width: 45%;
+        margin: 0px 5px;
+    }
+    .facilities_list_iconnn {
+        font-size: 13px;
+    }
+    .popover-button-style button {
+        font-weight: bold;
+    }
+    .property-box-2 .footer {
+        padding: 5px 0px 15px 0px;
+    }
+    .property-by-city .property-by-cit-card .ant-card-body {
+        display: flex;
+        padding: 15px 0;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .property-by-city {
+        padding: 20px 0px 0px 0px;
+    }
+
+}
+
+/* / Display SIze 600 / */
+@media only screen and (max-width:639px) {
+
+}
+
+/* / Display SIze 640 / */
+@media only screen and (max-width: 767px) {
+}
+
+/* / Display SIze 768 / */
+@media only screen and (max-width: 799px) {
+
+    h1, h2, h3 {
+        font-size: 15px !important;
+    }
+    a, p, button {
+        font-size: 13px !important;
+    }
+    button {
+        font-weight: bold !important;
+    }
+    .ant-card-body {
+        padding: 0px 0px;
+    }
+    .b_contant__txt{
+        width:100%;
+    }
+    .title-center {
+        text-align: center;
+    }
+    .latest-property .latest-property-btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .menu_area {
+        display: none;
+    }
+    .rasponsive_menu {
+        display: block;
+        width: 40px;
+        height: 36px;
+        background: var(--primarycolor);
+        padding: 7px;
+        float: right;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top:15px;
+    }
+    .bannner_form_area h3 {
+        font-size: 30px;
+    }
+    .cliend_area {
+        padding-bottom: 0px;
+    }
+}
+
+/* / Display SIze 780 / */
+@media only screen and (max-width: 899px) {
+
+    h1, h2, h3 {
+        font-size: 15px !important;
+    }
+    li, a, p, button {
+        font-size: 13px !important;
+    }
+    button {
+        font-weight: bold !important;
+    }
+    .tab-button {
+        text-align: center;
+    }
+    .why-us-about-title-section {
+        text-align: center;
+        width: 100%;
+    }
+    .why-us-about-section-title1 {
+        margin-bottom: 10px;
+    }
+    .item-text{
+        margin-top: 20px;
+        margin: 20px 0%;
+        textAlign: justify;
+    }
+    .city-card{
+        width: 50%;
+    }
+    .property-city-row{
+        flex-direction: unset;
+    }
+    .property-by-city .property-by-cit-card .card-image img {
+        max-width: 120px !important;
+        aspect-ratio: auto 80 / 81;
+        height: auto;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .slider-content {
+        padding: 10px 10px 0px 10px;
+    }
+    .img-fite {
+        padding: 0px;
+    }
+    .mission-section-text{
+        padding: 0px;
+    }
+    .item-text span{
+        text-align: justify;
+        width: 75%;
+    }
+    .header_logo_menu_area{
+        position: static;
+    }
+    .ant-card-body {
+        padding: 0px 0px;
+    }
+    .title_area {
+        padding-bottom: 0px;
+    }
+    .how-realtor .how-realtor-card .how-realtor-img {
+        margin-bottom: 10px;
+    }
+    .how-realtor .how-realtor-card .how-realtor-title {
+        margin-bottom: 10px;
+    }
+    .how-realtor .how-realtor-card .how-realtor-btn {
+        padding: 13px 15px 13px 15px;
+        margin: 0px 0px 10px 0px;
+    }
+    .ant-drawer-content-wrapper {
+        width: 320px !important;
+    }
+    .title-center {
+        text-align: center;
+    }
+    .latest-property .latest-property-btn {
+        text-align: center;
+        margin: 15px 0px;
+    }
+    .h_banner_p__box {
+        padding: 20px 20px 140px 20px;
+    }
+    .h_banner_p {
+        background-color: #bda151;
+        background-image: url(http://localhost:3000/static/media/h2-bg.6cba934d4121d42f4c0f.png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .b_contant__txt h2 {
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-size: 40px;
+        color: #fff;
+        letter-spacing: .6px;
+    }
+
+    .footer__logo {
+        width: 65%;
+        margin-bottom: 10px;
+    }
+    .property-by-city {
+        background-repeat: no-repeat;
+    }
+
+    .footer__btm_area_cntn{
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-top:15px;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .how-realtor {
+        padding: 30px 0 0 0;
+    }
+    .latest-property {
+        padding: 30px 0;
+    }
+    .add_banner_area {
+        padding: 0px 0 0 0;
+    }
+    .banner__area_Add_cntn {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .a_b_full_area {
+        margin-top: 0px;
+    }
+    .how_it_work_area {
+        background-image: none;
+        padding: 10px 0;
+    }
+    .faq-img {
+        display: none;
+    }
+    .ant-carousel {
+        /*margin-top: 0px;*/
+    }
+    .client_video {
+        height: auto;
+    }
+    .property-photo{
+        text-align: center;
+        margin: 20px 0px;
+    }
+    .about_full_area {
+        padding: 20px 0px 15px 0px;
+    }
+    .mastermind-about_full_area {
+        padding: 30px 0;
+    }
+    .gallery-about_full_area {
+        padding: 30px 0;
+    }
+    .ant-drawer-body {
+        background: var(--primarycolor);
+        color: #000;
+    }
+    .mb-2{
+        color:#000000;
+    }
+    .ant-dropdown-link{
+        color:#000000;
+    }
+    .ant-drawer-title {
+        line-height: 50px;
+        background-repeat: no-repeat;
+        background-image: url(data:image/png;base64,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);
+        background-size: contain;
+    }
+    .ant-drawer-header {
+        background: rgba(0, 0, 0, 0.54);
+    }
+    .ant-drawer-close {
+        color: #FFF;
+    }
+    .our-opening-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .our-opening-apply {
+        float: unset;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .our-opening-details {
+        float: unset;
+        text-align: center;
+    }
+    .our-opening-apply button {
+        padding: 5px 60px;
+    }
+    .our-opening-details button {
+        padding: 5px 60px;
+    }
+    .ant-modal {
+        max-width: calc(50vw);
+        margin: 8px auto;
+    }
+    .about_us_deatils_area {
+        margin-top: 0px;
+    }
+    .career-banner {
+        height: auto;
+    }
+    .why-join-title {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .why-join-ul li {
+        list-style: none;
+        font-size: 12px !important;
+        border-right: 2px solid;
+        line-height: 20px;
+        padding: 5px;
+    }
+    li:last-child {
+        border-right: 0px;
+    }
+    .core-value-img{
+        padding: 20px 0px;
+    }
+    .hiring-process-title {
+        margin-bottom: 25px;
+    }
+    .hiring-process-item {
+        width: 50%;
+    }
+    .hiring-process-img {
+        padding: 22px;
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        margin: 0 auto;
+        box-shadow: 10px 10px 10px #CCC;
+    }
+    .hiring-process-item h3 {
+        text-align: center;
+        font-weight: bold;
+        margin: 0.5em 0em 1.5em 0em;
+        font-size: 18px;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .together-grow {
+        padding: 15px;
+        text-align: center;
+    }
+    .career-email{
+        margin-top: 15px;
+    }
+    .why-join {
+        margin: 30px 0px;
+    }
+    .full_area {
+        margin-top: 0px;
+    }
+    .footer__btm_area {
+        text-align: center;
+    }
+    .editor__html {
+        text-align: justify;
+    }
+    .video-overflow iframe{
+        overflow: hidden;
+        width: 100%;
+    }
+    .core-value-text {
+        padding-right: 0em;
+    }
+    .button__call_ {
+        min-height: 38px;
+        padding: 0px 11px;
+        margin-top: 0px;
+    }
+    .banner__area_Add_cntn img {
+        position: relative;
+        width: 100% !important;
+        top: 0px;
+    }
+    .banner__area_Add_cntn_btn {
+        padding: 10px 20px;
+    }
+    .banner__area_Add_cntn p {
+        margin-bottom: 15px;
+    }
+    .banner__area_Add_cntn h1 {
+        margin-bottom: 10px;
+    }
+    .banner__area_Add_cntn_vdeo_icon {
+        position: sticky;
+        bottom: 50px;
+    }
+    .banner-top-space{
+        margin-top:-30px !important;
+    }
+    .property-box-2 .hdg {
+        margin-bottom: 1em;
+        padding: 0;
+    }
+    .property-box-2 .facilities-list {
+        background: #fff;
+        padding: 0 0px;
+    }
+    .archiver__link {
+        padding: 0px 15px;
+    }
+    .contact_us_deatils_area {
+        margin-top: 0px;
+    }
+    .header_banner {
+        height: 200px;
+    }
+    .header_banner_img {
+        height: auto;
+    }
+    .contact_us_deatils_area h3 {
+        top: 40%;
+    }
+    .blog_deatils_area {
+        margin-top: 0px;
+        display: none;
+    }
+    .details_barcum p, .details_barcum p span {
+        font-size: 10px !important;
+        padding: 0px;
+    }
+    .blog_deatils_area h3 {
+        top: 35%;
+    }
+    .blog_deatils_area img {
+        height: 200px;
+    }
+    .discover_pages_contant {
+        padding: 0px 0;
+    }
+    .discover_search {
+        box-shadow: 0px 4px 7px 1px #CCC;
+        margin-bottom: 15px;
+    }
+    .buy_sell_guide_area {
+        padding: 0px 0;
+    }
+    .home_lone__banner_text {
+        position: absolute;
+        top: 0%;
+        text-align: center;
+        width: 100%;
+        right: 0;
+    }
+    .home_lone__banner_text__btn {
+        background: var(--primarycolor);
+        border: 0px solid #fff;
+        color: #000000;
+        font-weight: bold;
+    }
+    .section_area_home_lon {
+        padding: 30px 0 15px 0;
+    }
+    .home_box {
+        border:none;
+        padding: 20px 0px;
+    }
+    .section_area_home_loan {
+        padding: 0px 0;
+    }
+    .property-by-city .property-by-cit-card .ant-card-body {
+        display: flex;
+        padding: 15px 0;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .about_us_deatils_area h3 {
+        top: 43%;
+    }
+    .banner__area_Add {
+        min-height: auto;
+    }
+    .a_blog_full_area {
+        padding: 20px 0;
+    }
+    .property-box-2 {
+        margin-bottom: 0px;
+    }
+    .popular-places {
+        width: 50%;
+    }
+    .popular-places img {
+        height: auto;
+        aspect-ratio: 3/2;
+    }
+    .details_barcum a {
+        padding: 5px 0;
+    }
+    .details-slide-img {
+        height: auto;
+        width: auto;
+        aspect-ratio: 3/2;
+        border-radius: 6px;
+    }
+    .slider___bootom_model_area {
+        bottom: 5px;
+        text-align: center;
+        width: 100%;
+    }
+    .slider___bootom_model_area button {
+        margin: 0px 2px;
+    }
+    .propity__details__headline {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .propity__details__headline button {
+        padding: 5px 15px;
+        margin-left: 5px;
+    }
+    .propity__details__headline h3 {
+        float: left;
+        margin: 0px 5px 0px 0px;
+    }
+    .propity__details_facilities_list {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row;
+        flex-basis: fit-content;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .propity__details_facilities_list_item {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .propity__details_facilities_list_item div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .propity__details_facilities_list_item svg {
+        padding: 10px;
+        margin: 0 10px;
+    }
+    h3 strong{
+        text-align: center;
+    }
+    .propity__details__area .editor_others_html {
+        margin-top: 10px;
+    }
+    .propity__details_property_information {
+        padding: 10px 0;
+    }
+    .propity__details_property_information h3 {
+        padding-bottom: 10px;
+    }
+    .propity__details_property_information .information {
+        padding: 5px 0;
+    }
+    .propity__details_property_information p span {
+        font-size: 12px;
+    }
+    .propity__details_property_information .row .col-sm-6 {
+        width: 50%;
+        margin: 5px 0;
+    }
+    .chart_area {
+        padding: 10px 0px;
+    }
+    .apexcharts-title-text{
+        color: #0a53be;
+    }
+    .grid__item--header {
+        width: auto;
+        padding: 3px 5px;
+        margin-bottom: 10px;
+    }
+    .calculator{
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .grid__container_right_width_box h5 {
+        margin-bottom: 10px;
+    }
+    .grid__container_left_width {
+        width: 100%;
+    }
+    .grid__container_right_width {
+        float: right;
+        display: flex;
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .grid__container_right_width_box {
+        padding: 10px;
+        margin: 0px 5px;
+    }
+    .propity__details_calculation_information {
+        margin-bottom: 10px;
+        padding: 0px !important;
+    }
+    .box__area_from_list_logo_area {
+        padding: 10px;
+    }
+    .box__area_from_list_logo_area button {
+        width: 46%;
+    }
+    .box__area_from_list_logo_area button:last-child {
+        margin: 0px 5px !important;
+    }
+    .add-image {
+        margin-bottom: 20px;
+    }
+    .ant-carousel .slick-prev, .ant-carousel .slick-next {
+        top: 40%;
+    }
+    .slider___m_class {
+        width: 90% !important;
+        max-width: 400px;
+    }
+
+}
+
+/* / Display SIze 890 / */
+@media only screen and (max-width: 979px) {
+
+    .menu_area a {
+        font-size: 10px;
+        margin-left: 15px;
+    }
+    .bannner_form_area {
+        top: 18%;
+        width: 68%;
+        float: none;
+        left: 15%;
+    }
+}
+
+/* / Display SIze 980 / */
+@media only screen and (max-width: 1023px) {
+    .header_to_setting_txt  {
+        display: none;
+    }
+    .bannner_form_area {
+        top: 18% !important;
+        width: 68%;
+        float: none;
+        left: 15%;
+    }
+    .header_tot_r .header_to_setting_txt  {
+        display: block;
+    }
+    .rnone {
+        display: none !important;
+    }
+    .menu_area {
+        padding: 6px 0;
+    }
+    .menu_area a {
+        font-size: 10px !important;
+        margin-left: 15px;
+    }
+    .bannner_form_area {
+        top: 15%;
+    }
+    .footer____top .bg_mobile_img {
+        display: none;
+    }
+    .footer____top .bg_mobile_img2 {
+        display: none;
+    }
+    .defaultFooterComponent_area {
+        padding-top: 0px;
+    }
+    .footer____top {
+        margin-bottom: 15px;
+    }
+    .bannner_form_area {
+        top: 20%;
+    }
+    .latest-property .latest-property-card {
+        margin-bottom: 30px;
+    }
+}
+
+/* / Display SIze 1024 / */
+@media only screen and (max-width: 1279px) {
+    .banner__area_Add_cntn {
+        margin-top: 30px;
+    }
+    .b_contant__txt {
+        padding: 40px 20px;
+    }
+}
+
+/* / Display SIze 1280 / */
+@media only screen and (max-width:1365px) {
+    .bannner_form_area {
+        top: 31%;
+        width: 68%;
+        float: none;
+        left: 15%;
+    }
+    .footer____top .bg_mobile_img {
+        position: absolute;
+        width: 37%;
+        top: -87px;
+        left: 33%;
+    }
+    .menu_area a {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+}
+
+/* / Display SIze 1366 / */
+@media only screen and (max-width: 1919px) {
+
+}
+
+
+
+

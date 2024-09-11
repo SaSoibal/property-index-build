@@ -1,0 +1,26 @@
+{
+    "slider": [
+        
+        {
+            "id": 1,
+            "title": "title 01",
+            "images": "../../asstes/images/001.png"
+        },
+        {
+            "id": 2,
+            "title": "title 02",
+            "images": "../../asstes/images/01.jpg"
+        },
+        {
+            "id": 3,
+            "title": "title 03",
+            "images": "../../asstes/images/001.png"
+        },
+        {
+            "id": 4,
+            "title": "title 04",
+            "images": "../../asstes/images/01.jpg"
+        }
+        
+    ]
+}
