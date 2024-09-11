@@ -1,5 +1,4 @@
 import React, {useContext, useState} from 'react';
-import WhyUsImage from "../../asstes/images/b01.png";
 import {Link} from 'react-router-dom';
 import {Skeleton} from "antd";
 import LanguageContext from "../../context/LanguageProvider";

@@ -13,7 +13,6 @@ const languageMap = {
 };
 
 const LanguageSelect = () => {
-  const { setLanguage } = useLanguage();
   const selected = localStorage.getItem("i18nextLng") || "bn";
   const [menuAnchor, setMenuAnchor] = useState(null);
   React.useEffect(() => {

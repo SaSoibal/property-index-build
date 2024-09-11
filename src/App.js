@@ -6,7 +6,6 @@ import ScrollToTop from "./components/ScrollToTop";
 // Default Thim Components
 import Loader from "./Helper/Loader";
 import BankDetails from './pages/DefaultPages/BankDetails';
-import FacebookChat from "./components/FacebookChat";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 const HomePages = lazy(() => import("./pages/DefaultPages/dHome"));
 const AddProperty = lazy(() => import("./pages/DefaultPages/AddProperty"));
