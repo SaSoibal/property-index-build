@@ -198,6 +198,7 @@ function DefaultHeaderComponents() {
                             <div className='menu_area'>
                                 <Link to="/"> Home </Link>
                                 <Link to="/add-property"> Add Property </Link>
+                                <Link to="/privacy-policy"> Privacy Policy </Link>
                                 <Link to="/about-us"> About us </Link>
                                 <Link to="/career"> Career </Link>
                                 <Link to="/contact-us"> Contact us </Link>
@@ -223,6 +224,7 @@ function DefaultHeaderComponents() {
                         <div className='d-flex flex-column'>
                             <Link className='mb-2' to="/"> Home </Link>
                             <Link className='mb-2' to="/add-property"> Add Property </Link>
+                            <Link to="/privacy-policy"> Privacy Policy </Link>
                             <Link className='mb-2' to="/about-us"> About us </Link>
                             <Link className='mb-2' to="/career"> Career </Link>
                             <Link className='mb-2' to="/contact-us"> Contact us </Link>
