@@ -8,6 +8,5 @@
   NODE_VERSION = "14.21.3"
 
 [plugins]
-  [[plugins]]
   package = "@netlify/plugin-gatsby-cache"
   config = { cachePublic = false }
