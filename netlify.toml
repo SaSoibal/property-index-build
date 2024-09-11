@@ -5,6 +5,7 @@
 [build.environment]
   NPM_FLAGS = "--force"
   CI = "false"
+  NODE_VERSION = "14.21.3"
 
 [plugins]
   [[plugins]]
